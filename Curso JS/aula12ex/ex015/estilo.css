@@ -1,0 +1,59 @@
+body{
+    position: relative;    
+    animation-name: kdVxty;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    background-color: rgb(69, 163, 229);
+    }
+     @keyframes kdVxty {
+    25% {
+        background-color: rgb(65, 196, 222); 
+        height: auto;
+        width: auto;
+    }
+    
+    50% {
+        background-color: rgb(140, 199, 63);
+        height: auto;
+        width: auto;
+    }
+    
+    75% {
+        background-color: rgb(243, 211, 51) ;
+        height: auto;
+        width: auto;
+    }
+    
+    100% {
+        background-color: rgb(247, 142, 86);
+        height:  auto;
+        width:  auto;
+    }
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white; 
+    border-radius: 10px;
+    padding: 18px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.74);
+    style
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+

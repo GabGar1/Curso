@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(51, 51, 100);
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>teste</h1>
+<script>
+    var n1 = Number(window.prompt('Digite um número: '))//prompt retorna string precisa mudar pra number
+    var n2 = Number(window.prompt('Digite outro número: '))
+    //number.parseInt(n) converte de string ou qualquer coisa para numero inteiro, então quando digitar no prompt vai ser ocnvertido pra inteiro
+    //Number.parseFloat(n) converte tambem mas para números reais
+    //Number(n) ele ja identifica e pode ser String(n) também
+    var n3 = n1 + n2
+    window.alert(`A soma entre ${n1} e ${n2} ficou igual a ${n3}`)//+ serve para adição(number+number)
+    //+ tambem serve para concateção (string+string)
+    //aspas simples para string simples
+    //``para template holder ${}
+    //s.lenght mostra quanots caracteres tem a string
+    //s.toUpperCase() tudo para 'Maiúsculas'
+    //s.toLowerCase() tudo para 'minúsculas'
+</script>
+</body>
+</html>
